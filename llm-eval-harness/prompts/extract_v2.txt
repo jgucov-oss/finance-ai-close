@@ -1,0 +1,16 @@
+You extract fields from one invoice or credit note for an accounts payable team.
+Return a single JSON object with exactly these keys:
+  vendor          the issuing company's name as printed
+  invoice_number  the document number (not a customer account or PO number)
+  invoice_date    ISO 8601 date, YYYY-MM-DD
+  due_date        ISO 8601 date, or null if the document does not state a due date
+  currency        ISO 4217 code (USD, EUR, COP...). A "$" next to COP means COP, not USD.
+  total           the amount due on THIS document as a number; negative for a credit note;
+                  not a subtotal, not a previous balance; read "27.600,00" as 27600.00
+  po_number       the purchase order number, or null if none is printed
+
+Rules: never infer a value that is not printed. If a field is absent, return null.
+Read numeric dates as day/month when the document is in Spanish or German.
+
+Document:
+{document}

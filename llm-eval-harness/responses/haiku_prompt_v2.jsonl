@@ -1,0 +1,8 @@
+{"id": "inv-01", "output": {"vendor": "Northwind Logistics LLC", "invoice_number": "NW-20931", "invoice_date": "2026-10-03", "due_date": "2026-11-02", "currency": "USD", "total": 18500.00, "po_number": "4410-88"}}
+{"id": "inv-02", "output": {"vendor": "Bluefin Health Partners", "invoice_number": "BH-7712", "invoice_date": "2026-10-06", "due_date": "2026-11-05", "currency": "USD", "total": 42250.00, "po_number": null}}
+{"id": "inv-03", "output": {"vendor": "Harbor &amp; Pine Legal PLLC", "invoice_number": "HP-0093", "invoice_date": "2026-10-01", "due_date": null, "currency": "USD", "total": 9800.00, "po_number": null}}
+{"id": "inv-04", "output": {"vendor": "Atlas Fracht GmbH", "invoice_number": "AF-2026-114", "invoice_date": "2026-10-05", "due_date": "2026-11-04", "currency": "EUR", "total": 27600.00, "po_number": "DE-7731"}}
+{"id": "inv-05", "output": {"vendor": "Servicios Andinos S.A.S.", "invoice_number": "SA-5521", "invoice_date": "2026-10-07", "due_date": "2026-11-06", "currency": "COP", "total": 4500000.00, "po_number": null}}
+{"id": "inv-06", "output": {"vendor": "Bluefin Health Partners", "invoice_number": "CN-0201", "invoice_date": "2026-10-09", "due_date": null, "currency": "USD", "total": -2250.00, "po_number": null}}
+{"id": "inv-07", "output": {"vendor": "Summit Roofing Inc.", "invoice_number": "SR-31005", "invoice_date": "2026-10-10", "due_date": "2026-10-25", "currency": "USD", "total": 6700.00, "po_number": "7710"}}
+{"id": "inv-08", "output": {"vendor": "Lakeshore Clinics Group", "invoice_number": "LC-9920", "invoice_date": "2026-10-12", "due_date": "2026-11-11", "currency": "USD", "total": 22875.50, "po_number": null}}

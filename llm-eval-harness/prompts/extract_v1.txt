@@ -1,0 +1,5 @@
+Extract these fields from the invoice below and return JSON only:
+vendor, invoice_number, invoice_date, due_date, currency, total, po_number.
+
+Invoice:
+{document}
